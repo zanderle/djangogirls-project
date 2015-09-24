@@ -1,6 +1,7 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
 
+
 urlpatterns = patterns('',
-    url(r'^calculator/', 'blog.views.calculator_view', name='calculator'),
+    # url(r'^$', 'blog.views.index', name='index'),
 )
